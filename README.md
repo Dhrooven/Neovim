@@ -1,23 +1,10 @@
-# Neovim from scratch
-
-When I initially created this repo I didn't anticipate the amount of breaking changes introduced by the rapidly developing plugin ecosystem.  All packages are pinned in `master` so it will remain stable and you can always follow the [videos](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
-there if you're getting errors in other branches.   
-
-🔍 If you see an error that you can fix [here's how](CONTRIBUTING.md) 🎉.
-
-**Update** For a simple IDE that builds on these principles and is under active development, I recommend my newer repo: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide) as well as [lunarvim](https://www.lunarvim.org/) which is mature and fully-featured.
-
-General support is available on our [Matrix channels](https://matrix.to/#/#neovim-atmachine:matrix.org).
+# Neovim Config / Dhrooven
 
 ## Try out this config
 
 This config requires >= [Neovim v0.8.0](https://github.com/neovim/neovim/releases). Please [upgrade](#upgrade-to-neovim-v080) if you're on an earlier version of the editor.
 
 Clone the repository into the correct location (make a backup your current `nvim` directory if you want to keep it).
-
-```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
-```
 
 Run `nvim` in your terminal and wait for the plugins to be installed. You will notice treesitter pulling in a bunch of language parsers the next time you open Neovim.
 
